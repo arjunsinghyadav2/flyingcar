@@ -16,9 +16,9 @@ the Starter Code
 
 
 And here's a lovely image of my results 
-![alt text](https://github.com/arjunsinghyadav2/flyingcar/blob/main/image.png?raw=true)
+![alt text](https://github.com/arjunsinghyadav2/flyingcar/blob/master/image.jpg?raw=true)
 
-![alt text](https://github.com/arjunsinghyadav2/flyingcar/blob/main/image1.png?raw=true)
+![alt text](https://github.com/arjunsinghyadav2/flyingcar/blob/master/image1.jpg?raw=true)
 
 Here's	A	Snappy	Table
 1	highlight	bold	7.41
