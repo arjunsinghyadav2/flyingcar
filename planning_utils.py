@@ -158,6 +158,17 @@ def heuristic(position, goal_position):
 
 
 def collinearity_check(p1, p2, p3, epsilon=1e-6):
+    """method is used to calculate determinant of a matrix with three points
+        this allows us to check if the points are collinear
+    Args:
+        p1 ([tuple of int]): (x,y)
+        p2 ([tuple of int]): (x,y)
+        p3 ([tuple of int]): (x,y)
+        epsilon ([int]): Defaults to 1e-6.
+
+    Returns:
+        Boolean: TRUE/FALSE
+    """
     m = np.concatenate((p1, p2, p3), 0)
     det = np.linalg.det(m)
     return abs(det) < epsilon
@@ -167,6 +178,15 @@ def point(p):
 
 
 def prune_path(path):
+    """method passes through a list and removes
+     points if consecutive 3 point in a path are collinear
+
+    Args:
+        path ([list]): list of tuples
+
+    Returns:
+        [list]: list of tuples
+    """
     if path is not None:
         pruned_path = [p for p in path]
         i = 0

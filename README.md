@@ -7,7 +7,8 @@ This project is a continuation of the Backyard Flyer project where you executed 
 
 1. Writeup / README that includes all the rubric points and how I addressed each one.
 
-the Starter Code
+the Starter Code:
+
   motion_planning.py 
   The code contains a motion planner class that contains helper function that help in arming the drone, takeoff and transitioning to waypoints, the core of the code is a A* algorithm that helps in planning path from point A to point B selected by user. Here also the local, home and global position of the drone are also constantly received in the code. 
   
